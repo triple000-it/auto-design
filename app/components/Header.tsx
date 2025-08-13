@@ -33,6 +33,8 @@ const Header = () => {
     },
     { name: 'CMS en CRM', href: '/cms-crm' },
     { name: 'Domeinnamen', href: 'https://auto-domein.nl' },
+    { name: 'Marketing', href: 'https://cars-marketing.com' },
+    { name: 'Social Media', href: '/social-media' },
     { name: 'Webdesign', href: '/webdesign' },
     { name: 'Contact', href: '/contact' },
   ]
@@ -77,7 +79,7 @@ const Header = () => {
     <header className={`bg-white border-b border-gray-100 sticky top-0 z-50 transition-all duration-300 ${
       isScrolled ? 'shadow-md' : ''
     }`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
         {/* Top bar */}
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
@@ -96,14 +98,14 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex space-x-8">
+          <nav className="hidden lg:flex absolute left-1/2 transform -translate-x-1/2 space-x-6 lg:space-x-8">
             {navigation.map((item) => (
               <div key={item.name} className="relative">
                 {item.hasDropdown ? (
                   <div className="design-dropdown relative group/design">
                     <button
                       onClick={() => setIsDesignDropdownOpen(!isDesignDropdownOpen)}
-                      className="inline-flex items-center text-gray-600 hover:text-accent-500 transition-colors text-sm font-medium focus:outline-none focus:ring-0 border-0"
+                      className="inline-flex items-center text-gray-600 hover:text-accent-500 transition-colors text-sm font-medium focus:outline-none focus:ring-0 border-0 whitespace-nowrap"
                       style={{ outline: 'none', border: 'none', boxShadow: 'none' }}
                     >
                       {item.name}
@@ -131,7 +133,7 @@ const Header = () => {
                     href={item.href}
                     target={item.href.startsWith('http') ? '_blank' : undefined}
                     rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                    className="text-gray-600 hover:text-accent-500 transition-colors text-sm font-medium focus:outline-none focus:ring-0 border-0"
+                    className="text-gray-600 hover:text-accent-500 transition-colors text-sm font-medium focus:outline-none focus:ring-0 border-0 whitespace-nowrap"
                     style={{ outline: 'none', border: 'none', boxShadow: 'none' }}
                   >
                     {item.name}

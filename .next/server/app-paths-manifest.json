@@ -1,4 +1,4 @@
 {
-  "/design/banners/page": "app/design/banners/page.js",
-  "/page": "app/page.js"
+  "/social-media/page": "app/social-media/page.js",
+  "/design/banners/page": "app/design/banners/page.js"
 }

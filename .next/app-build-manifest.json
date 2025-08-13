@@ -54,6 +54,26 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/design/posters/page.js"
+    ],
+    "/social-media/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/social-media/page.js"
+    ],
+    "/design/relatiegeschenken/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/design/relatiegeschenken/page.js"
+    ],
+    "/design/spandoeken/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/design/spandoeken/page.js"
+    ],
+    "/design/stickers/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/design/stickers/page.js"
     ]
   }
 }

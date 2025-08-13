@@ -337,6 +337,84 @@ self.__RSC_MANIFEST={
         "name": "default",
         "async": false
       }
+    },
+    "(app-client)/./app/design/relatiegeschenken/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/design/relatiegeschenken/page.tsx",
+        "chunks": [
+          "app/design/relatiegeschenken/page:app/design/relatiegeschenken/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/design/relatiegeschenken/page.tsx",
+        "chunks": [
+          "app/design/relatiegeschenken/page:app/design/relatiegeschenken/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/design/relatiegeschenken/page.tsx",
+        "chunks": [
+          "app/design/relatiegeschenken/page:app/design/relatiegeschenken/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/design/spandoeken/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/design/spandoeken/page.tsx",
+        "chunks": [
+          "app/design/spandoeken/page:app/design/spandoeken/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/design/spandoeken/page.tsx",
+        "chunks": [
+          "app/design/spandoeken/page:app/design/spandoeken/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/design/spandoeken/page.tsx",
+        "chunks": [
+          "app/design/spandoeken/page:app/design/spandoeken/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/design/stickers/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/design/stickers/page.tsx",
+        "chunks": [
+          "app/design/stickers/page:app/design/stickers/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/design/stickers/page.tsx",
+        "chunks": [
+          "app/design/stickers/page:app/design/stickers/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/design/stickers/page.tsx",
+        "chunks": [
+          "app/design/stickers/page:app/design/stickers/page"
+        ],
+        "name": "default",
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -749,6 +827,78 @@ self.__RSC_MANIFEST={
     "id": "(app-client)/./app/design/posters/page.tsx",
     "chunks": [
       "app/design/posters/page:app/design/posters/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/relatiegeschenken/page.tsx": {
+    "id": "(app-client)/./app/design/relatiegeschenken/page.tsx",
+    "chunks": [
+      "app/design/relatiegeschenken/page:app/design/relatiegeschenken/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/relatiegeschenken/page.tsx#": {
+    "id": "(app-client)/./app/design/relatiegeschenken/page.tsx",
+    "chunks": [
+      "app/design/relatiegeschenken/page:app/design/relatiegeschenken/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/relatiegeschenken/page.tsx#default": {
+    "id": "(app-client)/./app/design/relatiegeschenken/page.tsx",
+    "chunks": [
+      "app/design/relatiegeschenken/page:app/design/relatiegeschenken/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/spandoeken/page.tsx": {
+    "id": "(app-client)/./app/design/spandoeken/page.tsx",
+    "chunks": [
+      "app/design/spandoeken/page:app/design/spandoeken/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/spandoeken/page.tsx#": {
+    "id": "(app-client)/./app/design/spandoeken/page.tsx",
+    "chunks": [
+      "app/design/spandoeken/page:app/design/spandoeken/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/spandoeken/page.tsx#default": {
+    "id": "(app-client)/./app/design/spandoeken/page.tsx",
+    "chunks": [
+      "app/design/spandoeken/page:app/design/spandoeken/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/stickers/page.tsx": {
+    "id": "(app-client)/./app/design/stickers/page.tsx",
+    "chunks": [
+      "app/design/stickers/page:app/design/stickers/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/stickers/page.tsx#": {
+    "id": "(app-client)/./app/design/stickers/page.tsx",
+    "chunks": [
+      "app/design/stickers/page:app/design/stickers/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/stickers/page.tsx#default": {
+    "id": "(app-client)/./app/design/stickers/page.tsx",
+    "chunks": [
+      "app/design/stickers/page:app/design/stickers/page"
     ],
     "name": "default",
     "async": false
