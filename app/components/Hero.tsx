@@ -18,13 +18,14 @@ const Hero = () => {
                 <span className="text-white block">voor uw autohandel?</span>
               </h1>
               <p className="text-lg sm:text-xl text-gray-100 max-w-lg leading-relaxed">
-                Bijvoorbeeld voor een autobanden service, een dealership, een garage, export, import, inkoop, veiling, verkoop of een andere vorm van autohandel... Volledig op maat ontwikkelen wij zeer complete, interactieve en moderne projecten.
+              Denk hierbij aan banners, brochures, flyers, logo&apos;s, magazines, posters, relatiegeschenken, spandoeken, stickers, visitekaartjes, vlaggen etc.
               </p>
               <p className="text-lg sm:text-xl text-gray-100 max-w-lg leading-relaxed">
-                Onze apps, websites en webshops zijn slimmer dan de meeste websites, soms geautomatiseerd en werken samen met AI technologieën. Alle projecten zijn ontwikkeld met de laatste technologieën en worden op alle apparaten of web browsers altijd correct weergegeven.
+                Bijvoorbeeld voor een autobanden service, een dealership, een garage, export, import, inkoop, veiling, verkoop of een andere vorm van autohandel... Volledig op maat ontwerpen wij zeer complete, moderne en unieke designs.
               </p>
+              
               <p className="text-lg sm:text-xl text-gray-100 max-w-lg leading-relaxed">
-                Tevens bieden wij oplossingen voor CMS en CRM, maar ook voor design. Denk hierbij aan banners, brochures, flyers, logo&apos;s, magazines, posters, relatiegeschenken, spandoeken, stickers, visitekaartjes, vlaggen etc.
+                Tevens bieden wij oplossingen voor CMS en CRM, maar ook voor webdesign. Onze apps, websites en webshops zijn slimmer dan de meeste websites, soms volledig geautomatiseerd en werken samen met AI technologieën. Alle projecten zijn ontwikkeld met de laatste technologieën en worden op alle apparaten of web browsers altijd correct weergegeven.
               </p>
             </div>
 
