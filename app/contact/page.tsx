@@ -151,7 +151,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-1">E-mail</h4>
-                    <p className="text-gray-600 mb-2">info@auto-websites.nl</p>
+                    <p className="text-gray-600 mb-2">info@auto-design.nl</p>
                     <p className="text-sm text-gray-500">Reactie binnen 12-24 uur</p>
                   </div>
                 </div>
@@ -272,7 +272,7 @@ export default function ContactPage() {
               WhatsApp ons direct
             </a>
             <a 
-              href="mailto:info@auto-websites.nl" 
+                              href="mailto:info@auto-design.nl" 
               className="inline-flex items-center px-8 py-4 bg-gray-100 text-gray-700 font-semibold rounded-xl hover:bg-gray-200 transition-all duration-200"
             >
               <Mail className="w-5 h-5 mr-2" />

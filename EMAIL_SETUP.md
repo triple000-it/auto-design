@@ -1,24 +1,24 @@
 # Email Setup for Quote Request Form
 
 ## Overview
-The quote request form now sends emails using Resend.com to both the admin (info@auto-websites.nl) and the client.
+The quote request form now sends emails using Resend.com to both the admin (info@auto-design.nl) and the client.
 
 ## Setup Instructions
 
 ### 1. Environment Variables
 Create a `.env.local` file in your project root with:
 ```
-RESEND_API_KEY=re_A2fRo6U5_71yNLv6qmdSc5KXAhZxxaFsu
+RESEND_API_KEY=re_FengiFhH_6WA8r1jZDiVePTH5DmiS1w4K
 ```
 
 ### 2. Resend.com Configuration
-- **Account**: info@auto-websites.nl
-- **API Key**: re_A2fRo6U5_71yNLv6qmdSc5KXAhZxxaFsu
-- **Domain**: auto-websites.nl (needs to be verified in Resend dashboard)
+- **Account**: info@auto-design.nl
+- **API Key**: re_FengiFhH_6WA8r1jZDiVePTH5DmiS1w4K
+- **Domain**: auto-design.nl (needs to be verified in Resend dashboard)
 
 ### 3. Email Flow
 1. **Client submits quote form** → Form data is sent to `/api/send-quote`
-2. **Admin notification** → Email sent to info@auto-websites.nl with full quote details
+2. **Admin notification** → Email sent to info@auto-design.nl with full quote details
 3. **Client confirmation** → Professional thank you email sent to client's email address
 
 ### 4. Email Templates
@@ -43,7 +43,7 @@ RESEND_API_KEY=re_A2fRo6U5_71yNLv6qmdSc5KXAhZxxaFsu
 To test the email functionality:
 1. Fill out the quote form on any design service page
 2. Submit the form
-3. Check info@auto-websites.nl for admin notification
+3. Check info@auto-design.nl for admin notification
 4. Check the email address used in the form for client confirmation
 
 ### 7. Troubleshooting

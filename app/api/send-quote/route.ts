@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 // Direct Resend API integration using fetch
-const RESEND_API_KEY = process.env.RESEND_API_KEY || 're_A2fRo6U5_71yNLv6qmdSc5KXAhZxxaFsu'
+const RESEND_API_KEY = process.env.RESEND_API_KEY || 're_FengiFhH_6WA8r1jZDiVePTH5DmiS1w4K'
 const RESEND_API_URL = 'https://api.resend.com/emails'
 
-async function sendEmailViaResend(to: string, subject: string, html: string, from: string = 'info@auto-websites.nl') {
+async function sendEmailViaResend(to: string, subject: string, html: string, from: string = 'info@auto-design.nl') {
   try {
     const response = await fetch(RESEND_API_URL, {
       method: 'POST',
@@ -47,9 +47,9 @@ export async function POST(request: NextRequest) {
       additionalInfo
     } = body
 
-    // Send email to info@auto-websites.nl
+    // Send email to info@auto-design.nl
     const adminEmail = await sendEmailViaResend(
-      'info@auto-websites.nl',
+      'info@auto-design.nl',
       `Nieuwe offerteaanvraag van ${name}`,
       `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
@@ -78,7 +78,7 @@ export async function POST(request: NextRequest) {
           
           <hr style="margin: 20px 0; border: 1px solid #eee;">
           <p style="color: #666; font-size: 12px;">
-            Deze offerteaanvraag is verzonden via het contactformulier op auto-websites.nl
+            Deze offerteaanvraag is verzonden via het contactformulier op auto-design.nl
           </p>
         </div>
       `
@@ -125,8 +125,8 @@ export async function POST(request: NextRequest) {
             <h3 style="color: #2c5765;">Heeft u vragen?</h3>
             <p>Neem gerust contact met ons op via:</p>
             <ul style="line-height: 1.6;">
-              <li><strong>E-mail:</strong> info@auto-websites.nl</li>
-              <li><strong>Website:</strong> <a href="https://auto-websites.nl" style="color: #3c5774;">auto-websites.nl</a></li>
+              <li><strong>E-mail:</strong> info@auto-design.nl</li>
+              <li><strong>Website:</strong> <a href="https://auto-design.nl" style="color: #3c5774;">auto-design.nl</a></li>
             </ul>
             
             <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center;">

@@ -1,11 +1,4 @@
 {
-  "/page": "app/page.js",
   "/webdesign/page": "app/webdesign/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/over-ons/page": "app/over-ons/page.js",
-  "/design/banners/page": "app/design/banners/page.js",
-  "/design/brochures/page": "app/design/brochures/page.js",
-  "/design/flyers/page": "app/design/flyers/page.js",
-  "/design/logos/page": "app/design/logos/page.js",
-  "/design/posters/page": "app/design/posters/page.js"
+  "/design/banners/page": "app/design/banners/page.js"
 }
