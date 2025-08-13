@@ -1,4 +1,6 @@
 {
   "/webdesign/page": "app/webdesign/page.js",
-  "/design/banners/page": "app/design/banners/page.js"
+  "/design/banners/page": "app/design/banners/page.js",
+  "/cms-crm/page": "app/cms-crm/page.js",
+  "/page": "app/page.js"
 }
