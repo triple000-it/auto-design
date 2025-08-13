@@ -1,0 +1,32 @@
+{
+  "name": "Auto Websites",
+  "short_name": "Auto Websites",
+  "description": "Premium e-commerce platform voor mode, wonen en lifestyle producten",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#3c2774",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/Favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/Favicon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["shopping", "lifestyle", "fashion"],
+  "lang": "nl-NL"
+} 
