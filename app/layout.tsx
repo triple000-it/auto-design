@@ -5,10 +5,10 @@ import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
 
 export const metadata: Metadata = {
-  title: 'Auto Websites | Volledig op maat gemaakt en meer...',
+  title: 'Auto Design | Volledig op maat gemaakt en meer...',
   description: 'Bijvoorbeeld voor een autobanden service, een dealership, een garage, export, import, inkoop, veiling, verkoop of een andere vorm van autohandel...',
   keywords: 'e-commerce, webshop, website, grafisch design, marketing, social media, roas, adverteren',
-  authors: [{ name: 'Team Auto Websites' }],
+  authors: [{ name: 'Team Auto Design' }],
   viewport: 'width=device-width, initial-scale=1',
   icons: {
     icon: [
@@ -21,27 +21,27 @@ export const metadata: Metadata = {
   },
   manifest: '/site.webmanifest',
   appleWebApp: {
-    title: 'Auto Websites',
+    title: 'Auto Design',
     statusBarStyle: 'default',
   },
   openGraph: {
-    title: 'Auto Websites | Volledig op maat gemaakt en meer...',
+    title: 'Auto Design | Volledig op maat gemaakt en meer...',
     description: 'Bijvoorbeeld voor een autobanden service, een dealership, een garage, export, import, inkoop, veiling, verkoop of een andere vorm van autohandel...',
     type: 'website',
     locale: 'nl_NL',
-    siteName: 'Auto Websites',
+    siteName: 'Auto Design',
     images: [
       {
         url: '/Favicon.png',
         width: 1200,
         height: 630,
-        alt: 'Auto Websites Logo',
+        alt: 'Auto Design Logo',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Auto Websites | Volledig op maat gemaakt en meer...',
+    title: 'Auto Design | Volledig op maat gemaakt en meer...',
     description: 'Bijvoorbeeld voor een autobanden service, een dealership, een garage, export, import, inkoop, veiling, verkoop of een andere vorm van autohandel...',
     images: ['/Favicon.png'],
   },
@@ -77,7 +77,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#3c2774" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Auto Websites" />
+        <meta name="apple-mobile-web-app-title" content="Auto Design" />
         
         <script
           dangerouslySetInnerHTML={{
@@ -85,7 +85,7 @@ export default function RootLayout({
               // Disable right-click context menu
               document.addEventListener('contextmenu', function(e) {
                 e.preventDefault();
-                showCustomPopup('Auto Websites © 2025');
+                showCustomPopup('Auto Design © 2025');
               });
 
               // Disable keyboard shortcuts
@@ -93,43 +93,43 @@ export default function RootLayout({
                 // Disable Ctrl+U (View Source)
                 if (e.ctrlKey && e.key === 'u') {
                   e.preventDefault();
-                  showCustomPopup('Auto Websites © 2025');
+                  showCustomPopup('Auto Design © 2025');
                   return false;
                 }
                 // Disable F12
                 if (e.key === 'F12') {
                   e.preventDefault();
-                  showCustomPopup('Auto Websites © 2025');
+                  showCustomPopup('Auto Design © 2025');
                   return false;
                 }
                 // Disable Ctrl+Shift+I (Developer Tools)
                 if (e.ctrlKey && e.shiftKey && e.key === 'I') {
                   e.preventDefault();
-                  showCustomPopup('Auto Websites © 2025');
+                  showCustomPopup('Auto Design © 2025');
                   return false;
                 }
                 // Disable Ctrl+Shift+C (Developer Tools)
                 if (e.ctrlKey && e.shiftKey && e.key === 'C') {
                   e.preventDefault();
-                  showCustomPopup('Auto Websites © 2025');
+                  showCustomPopup('Auto Design © 2025');
                   return false;
                 }
                 // Disable Ctrl+Shift+J (Developer Tools)
                 if (e.ctrlKey && e.shiftKey && e.key === 'J') {
                   e.preventDefault();
-                  showCustomPopup('Auto Websites © 2025');
+                  showCustomPopup('Auto Design © 2025');
                   return false;
                 }
                 // Disable Ctrl+S (Save Page)
                 if (e.ctrlKey && e.key === 's') {
                   e.preventDefault();
-                  showCustomPopup('Auto Websites © 2025');
+                  showCustomPopup('Auto Design © 2025');
                   return false;
                 }
                 // Disable Ctrl+P (Print)
                 if (e.ctrlKey && e.key === 'p') {
                   e.preventDefault();
-                  showCustomPopup('Auto Websites © 2025');
+                  showCustomPopup('Auto Design © 2025');
                   return false;
                 }
               });

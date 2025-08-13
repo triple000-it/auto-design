@@ -50,7 +50,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-white text-sm sm:text-base text-center">
-            <b>Auto Websites © {currentYear} </b><br /><span className="text-xs">Alle rechten voorbehouden.</span>
+            <b>Auto Design © {currentYear} </b><br /><span className="text-xs">Alle rechten voorbehouden.</span>
           </div>
         </div>
 

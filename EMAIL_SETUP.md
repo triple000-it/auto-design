@@ -28,7 +28,7 @@ RESEND_API_KEY=re_A2fRo6U5_71yNLv6qmdSc5KXAhZxxaFsu
   - Next steps explanation
   - Summary of their request
   - Contact information
-  - Branded with Auto Websites styling
+  - Branded with Auto Design styling
 
 ### 5. Features
 - ✅ Form validation

@@ -13,7 +13,6 @@ const Header = () => {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Over ons', href: '/over-ons' },
-    { name: 'CMS en CRM', href: '/cms-crm' },
     { 
       name: 'Design', 
       href: '#',
@@ -32,8 +31,9 @@ const Header = () => {
         { name: 'Vlaggen', href: '/design/vlaggen' },
       ]
     },
+    { name: 'CMS en CRM', href: '/cms-crm' },
     { name: 'Domeinnamen', href: 'https://auto-domein.nl' },
-    { name: 'Prijzen', href: '/prijzen' },
+    { name: 'Webdesign', href: '/webdesign' },
     { name: 'Contact', href: '/contact' },
   ]
 
@@ -88,8 +88,8 @@ const Header = () => {
               style={{ outline: 'none', border: 'none', boxShadow: 'none' }}
             >
               <img
-                src="/WEBLOGO-AutoWebsites.png"
-                alt="Auto Websites"
+                src="/WEBLOGO-AutoDesign.png"
+                alt="Auto Design"
                 className="h-14 lg:h-20 w-auto transition-transform duration-200 group-hover:scale-105"
               />
             </Link>

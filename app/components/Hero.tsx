@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="space-y-6">
             <div className="space-y-4">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
-                Een website nodig
+                Een design nodig
                 <span className="text-white block">voor uw autohandel?</span>
               </h1>
               <p className="text-lg sm:text-xl text-gray-100 max-w-lg leading-relaxed">

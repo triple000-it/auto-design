@@ -87,11 +87,11 @@ export async function POST(request: NextRequest) {
     // Send confirmation email to client
     const clientEmail = await sendEmailViaResend(
       email,
-      'Bedankt voor uw offerteaanvraag - Auto Websites',
+      'Bedankt voor uw offerteaanvraag - Auto Design',
       `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #333;">
           <div style="background: linear-gradient(135deg, #3c2774 0%, #2c5765 100%); padding: 30px; text-align: center;">
-            <h1 style="color: white; margin: 0; font-size: 28px;">Auto Websites</h1>
+            <h1 style="color: white; margin: 0; font-size: 28px;">Auto Design</h1>
             <p style="color: white; margin: 10px 0 0 0; font-size: 16px;">Professionele weboplossingen</p>
           </div>
           
@@ -100,7 +100,7 @@ export async function POST(request: NextRequest) {
             
             <p>Beste ${name},</p>
             
-            <p>Hartelijk dank voor uw offerteaanvraag bij Auto Websites. We hebben uw aanvraag goed ontvangen en nemen deze serieus in behandeling.</p>
+            <p>Hartelijk dank voor uw offerteaanvraag bij Auto Design. We hebben uw aanvraag goed ontvangen en nemen deze serieus in behandeling.</p>
             
             <h3 style="color: #2c5765;">Wat gebeurt er nu?</h3>
             <ul style="line-height: 1.6;">
@@ -136,12 +136,12 @@ export async function POST(request: NextRequest) {
             </div>
             
             <p>Met vriendelijke groet,<br>
-            <strong>Team Auto Websites</strong></p>
+            <strong>Team Auto Design</strong></p>
           </div>
           
           <div style="background: #f8f9fa; padding: 20px; text-align: center; font-size: 12px; color: #666;">
             <p style="margin: 0;">
-              © 2025 Auto Websites. Alle rechten voorbehouden.<br>
+              © 2025 Auto Design. Alle rechten voorbehouden.<br>
               Deze e-mail is verzonden naar ${email}
             </p>
           </div>

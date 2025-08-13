@@ -178,7 +178,7 @@ export default function ContactPage() {
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-1">Adres</h4>
                     <p className="text-gray-600 mb-2">
-                      Auto Websites<br />
+                      Auto Design<br />
                       Zuid-Holland<br />
                       Nederland
                     </p>
@@ -212,7 +212,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Waarom kiezen voor Auto Websites?
+              Waarom kiezen voor Auto Design?
             </h2>
           </div>
 

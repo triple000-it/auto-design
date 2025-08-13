@@ -1,0 +1,763 @@
+{
+  "__ssr_module_mapping__": {
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/Hero.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/Hero.tsx",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Hero.tsx",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Hero.tsx",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/Footer.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/Footer.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Footer.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Footer.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/Header.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/Header.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Header.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Header.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/WhatsAppButton.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/WhatsAppButton.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/WhatsAppButton.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/WhatsAppButton.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/design/banners/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/design/banners/page.tsx",
+        "chunks": [
+          "app/design/banners/page:app/design/banners/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/design/banners/page.tsx",
+        "chunks": [
+          "app/design/banners/page:app/design/banners/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/design/banners/page.tsx",
+        "chunks": [
+          "app/design/banners/page:app/design/banners/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/design/brochures/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/design/brochures/page.tsx",
+        "chunks": [
+          "app/design/brochures/page:app/design/brochures/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/design/brochures/page.tsx",
+        "chunks": [
+          "app/design/brochures/page:app/design/brochures/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/design/brochures/page.tsx",
+        "chunks": [
+          "app/design/brochures/page:app/design/brochures/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/design/flyers/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/design/flyers/page.tsx",
+        "chunks": [
+          "app/design/flyers/page:app/design/flyers/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/design/flyers/page.tsx",
+        "chunks": [
+          "app/design/flyers/page:app/design/flyers/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/design/flyers/page.tsx",
+        "chunks": [
+          "app/design/flyers/page:app/design/flyers/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/design/logos/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/design/logos/page.tsx",
+        "chunks": [
+          "app/design/logos/page:app/design/logos/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/design/logos/page.tsx",
+        "chunks": [
+          "app/design/logos/page:app/design/logos/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/design/logos/page.tsx",
+        "chunks": [
+          "app/design/logos/page:app/design/logos/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/design/posters/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/design/posters/page.tsx",
+        "chunks": [
+          "app/design/posters/page:app/design/posters/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/design/posters/page.tsx",
+        "chunks": [
+          "app/design/posters/page:app/design/posters/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/design/posters/page.tsx",
+        "chunks": [
+          "app/design/posters/page:app/design/posters/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    }
+  },
+  "__edge_ssr_module_mapping__": {},
+  "__entry_css_files__": {
+    "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/layout": [
+      "static/css/_app-client_app_globals_css.css"
+    ]
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/client/components/app-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/esm/client/components/app-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/client/components/app-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/esm/client/components/app-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/client/components/app-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/esm/client/components/app-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/client/components/error-boundary.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/client/components/error-boundary.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/esm/client/components/error-boundary.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/client/components/error-boundary.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/client/components/layout-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/client/components/layout-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/esm/client/components/layout-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/client/components/layout-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/esm/client/components/layout-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/client/components/render-from-template-context.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/client/components/render-from-template-context.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/components/Hero.tsx": {
+    "id": "(app-client)/./app/components/Hero.tsx",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/components/Hero.tsx#": {
+    "id": "(app-client)/./app/components/Hero.tsx",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/components/Hero.tsx#default": {
+    "id": "(app-client)/./app/components/Hero.tsx",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/components/Footer.tsx": {
+    "id": "(app-client)/./app/components/Footer.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/components/Footer.tsx#": {
+    "id": "(app-client)/./app/components/Footer.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/components/Footer.tsx#default": {
+    "id": "(app-client)/./app/components/Footer.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/components/Header.tsx": {
+    "id": "(app-client)/./app/components/Header.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/components/Header.tsx#": {
+    "id": "(app-client)/./app/components/Header.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/components/Header.tsx#default": {
+    "id": "(app-client)/./app/components/Header.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/components/WhatsAppButton.tsx": {
+    "id": "(app-client)/./app/components/WhatsAppButton.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/components/WhatsAppButton.tsx#": {
+    "id": "(app-client)/./app/components/WhatsAppButton.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/components/WhatsAppButton.tsx#default": {
+    "id": "(app-client)/./app/components/WhatsAppButton.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/banners/page.tsx": {
+    "id": "(app-client)/./app/design/banners/page.tsx",
+    "chunks": [
+      "app/design/banners/page:app/design/banners/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/banners/page.tsx#": {
+    "id": "(app-client)/./app/design/banners/page.tsx",
+    "chunks": [
+      "app/design/banners/page:app/design/banners/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/banners/page.tsx#default": {
+    "id": "(app-client)/./app/design/banners/page.tsx",
+    "chunks": [
+      "app/design/banners/page:app/design/banners/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/brochures/page.tsx": {
+    "id": "(app-client)/./app/design/brochures/page.tsx",
+    "chunks": [
+      "app/design/brochures/page:app/design/brochures/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/brochures/page.tsx#": {
+    "id": "(app-client)/./app/design/brochures/page.tsx",
+    "chunks": [
+      "app/design/brochures/page:app/design/brochures/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/brochures/page.tsx#default": {
+    "id": "(app-client)/./app/design/brochures/page.tsx",
+    "chunks": [
+      "app/design/brochures/page:app/design/brochures/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/flyers/page.tsx": {
+    "id": "(app-client)/./app/design/flyers/page.tsx",
+    "chunks": [
+      "app/design/flyers/page:app/design/flyers/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/flyers/page.tsx#": {
+    "id": "(app-client)/./app/design/flyers/page.tsx",
+    "chunks": [
+      "app/design/flyers/page:app/design/flyers/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/flyers/page.tsx#default": {
+    "id": "(app-client)/./app/design/flyers/page.tsx",
+    "chunks": [
+      "app/design/flyers/page:app/design/flyers/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/logos/page.tsx": {
+    "id": "(app-client)/./app/design/logos/page.tsx",
+    "chunks": [
+      "app/design/logos/page:app/design/logos/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/logos/page.tsx#": {
+    "id": "(app-client)/./app/design/logos/page.tsx",
+    "chunks": [
+      "app/design/logos/page:app/design/logos/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/logos/page.tsx#default": {
+    "id": "(app-client)/./app/design/logos/page.tsx",
+    "chunks": [
+      "app/design/logos/page:app/design/logos/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/posters/page.tsx": {
+    "id": "(app-client)/./app/design/posters/page.tsx",
+    "chunks": [
+      "app/design/posters/page:app/design/posters/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/posters/page.tsx#": {
+    "id": "(app-client)/./app/design/posters/page.tsx",
+    "chunks": [
+      "app/design/posters/page:app/design/posters/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/design/posters/page.tsx#default": {
+    "id": "(app-client)/./app/design/posters/page.tsx",
+    "chunks": [
+      "app/design/posters/page:app/design/posters/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/globals.css#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/_app-client_app_globals_css.css"
+    ]
+  }
+}
