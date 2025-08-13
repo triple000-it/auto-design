@@ -338,6 +338,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/social-media/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/social-media/page.tsx",
+        "chunks": [
+          "app/social-media/page:app/social-media/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/social-media/page.tsx",
+        "chunks": [
+          "app/social-media/page:app/social-media/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/social-media/page.tsx",
+        "chunks": [
+          "app/social-media/page:app/social-media/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
     "(app-client)/./app/design/relatiegeschenken/page.tsx": {
       "*": {
         "id": "(sc_client)/./app/design/relatiegeschenken/page.tsx",
@@ -827,6 +853,30 @@ self.__RSC_MANIFEST={
     "id": "(app-client)/./app/design/posters/page.tsx",
     "chunks": [
       "app/design/posters/page:app/design/posters/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/social-media/page.tsx": {
+    "id": "(app-client)/./app/social-media/page.tsx",
+    "chunks": [
+      "app/social-media/page:app/social-media/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/social-media/page.tsx#": {
+    "id": "(app-client)/./app/social-media/page.tsx",
+    "chunks": [
+      "app/social-media/page:app/social-media/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/pro/Desktop/REPOS CURSOR/auto-design/app/social-media/page.tsx#default": {
+    "id": "(app-client)/./app/social-media/page.tsx",
+    "chunks": [
+      "app/social-media/page:app/social-media/page"
     ],
     "name": "default",
     "async": false

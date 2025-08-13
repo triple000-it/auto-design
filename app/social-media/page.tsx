@@ -1,6 +1,11 @@
-import { Check, Star, Zap, Crown, Diamond, Shield, Users, BarChart3, Search, Smartphone, Database, Sparkles, Trophy, Gem, Instagram, Facebook, Twitter, Linkedin, Youtube, MessageCircle, Image, Palette, Target, TrendingUp, Share2, Heart, Eye, MousePointer, Smartphone as Mobile, Monitor, Tablet } from 'lucide-react'
+'use client'
+
+import { Check, Star, Zap, Crown, Diamond, Shield, Users, BarChart3, Search, Smartphone, Database, Sparkles, Trophy, Gem, Instagram, Facebook, Twitter, Linkedin, Youtube, MessageCircle, Image, Palette, Target, TrendingUp, Share2, Heart, Eye, MousePointer, Smartphone as Mobile, Monitor, Tablet, ArrowRight } from 'lucide-react'
+import { useState } from 'react'
+import QuoteRequestForm from '../components/QuoteRequestForm'
 
 export default function SocialMediaPage() {
+  const [isQuoteFormOpen, setIsQuoteFormOpen] = useState(false)
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
@@ -402,28 +407,19 @@ export default function SocialMediaPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Klaar om uw Social Media te laten opvallen?
+            Klaar om uw Social Media een boost te geven?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
             Neem vandaag nog contact op voor een vrijblijvend gesprek over alle mogelijkheden.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="/contact" 
+          <div className="flex justify-center">
+            <button 
+              onClick={() => setIsQuoteFormOpen(true)}
               className="inline-flex items-center px-8 py-4 bg-gradient-to-br from-[#3c2774] to-[#2c5765] text-white font-semibold rounded-xl hover:from-gray-900 hover:to-black transition-all duration-200 shadow-lg hover:shadow-xl"
             >
-              <MessageCircle className="w-5 h-5 mr-2" />
-              Gratis Consultatie
-            </a>
-            <a 
-              href="https://wa.me/31687999505" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-8 py-4 bg-green-600 text-white font-semibold rounded-xl hover:bg-green-700 transition-all duration-200 shadow-lg hover:shadow-xl"
-            >
-              <MessageCircle className="w-5 h-5 mr-2" />
-              WhatsApp Direct
-            </a>
+              Offerte aanvragen
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </button>
           </div>
         </div>
       </section>
@@ -433,15 +429,15 @@ export default function SocialMediaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12">
             <div className="text-center">
-              <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3">1000+</div>
+              <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3">Expertise</div>
               <div className="text-sm sm:text-base text-gray-600 leading-relaxed max-w-xs mx-auto">
-                Social media designs succesvol afgerond
+                12+ jaar ervaring in Social Media
               </div>
             </div>
             <div className="text-center">
-              <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3">15+</div>
+              <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3">15.000+</div>
               <div className="text-sm sm:text-base text-gray-600 leading-relaxed max-w-xs mx-auto">
-                Social media platformen ondersteund
+              Social media designs gepost op platforms
               </div>
             </div>
             <div className="text-center">
@@ -453,6 +449,12 @@ export default function SocialMediaPage() {
           </div>
         </div>
       </section>
+
+      {/* Quote Request Form Modal */}
+      <QuoteRequestForm 
+        isOpen={isQuoteFormOpen} 
+        onClose={() => setIsQuoteFormOpen(false)} 
+      />
     </div>
   )
 }

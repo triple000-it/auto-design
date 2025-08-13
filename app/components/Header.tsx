@@ -32,7 +32,7 @@ const Header = () => {
       ]
     },
     { name: 'CMS en CRM', href: '/cms-crm' },
-    { name: 'Domeinnamen', href: 'https://auto-domein.nl' },
+    { name: 'Domeinen', href: 'https://auto-domein.nl' },
     { name: 'Marketing', href: 'https://cars-marketing.com' },
     { name: 'Social Media', href: '/social-media' },
     { name: 'Webdesign', href: '/webdesign' },
