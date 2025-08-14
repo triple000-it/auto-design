@@ -8,12 +8,12 @@ The quote request form now sends emails using Resend.com to both the admin (info
 ### 1. Environment Variables
 Create a `.env.local` file in your project root with:
 ```
-RESEND_API_KEY=re_FengiFhH_6WA8r1jZDiVePTH5DmiS1w4K
+RESEND_API_KEY=your_resend_api_key_here
 ```
 
 ### 2. Resend.com Configuration
 - **Account**: info@auto-design.nl
-- **API Key**: re_FengiFhH_6WA8r1jZDiVePTH5DmiS1w4K
+- **API Key**: [Set in .env.local file]
 - **Domain**: auto-design.nl (needs to be verified in Resend dashboard)
 
 ### 3. Email Flow

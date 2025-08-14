@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 // Direct Resend API integration using fetch
-const RESEND_API_KEY = process.env.RESEND_API_KEY || 're_FengiFhH_6WA8r1jZDiVePTH5DmiS1w4K'
+const RESEND_API_KEY = process.env.RESEND_API_KEY
 const RESEND_API_URL = 'https://api.resend.com/emails'
 
 async function sendEmailViaResend(to: string, subject: string, html: string, from: string = 'info@auto-design.nl') {
@@ -33,6 +33,19 @@ async function sendEmailViaResend(to: string, subject: string, html: string, fro
 }
 
 export async function POST(request: NextRequest) {
+  // Check if API key is configured
+  if (!RESEND_API_KEY) {
+    console.error('RESEND_API_KEY environment variable is not set')
+    return NextResponse.json(
+      { 
+        success: false, 
+        message: 'Email service is not configured. Please contact support.',
+        error: 'Missing API configuration'
+      },
+      { status: 500 }
+    )
+  }
+
   try {
     const body = await request.json()
     const {

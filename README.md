@@ -1,5 +1,22 @@
 This is a [Next.js](https://nextjs.org/) project created using the [`whop-next-template`](https://github.com/whopio/next-template/)
 
+## Security & Environment Variables
+
+**⚠️ IMPORTANT: Never commit API keys or sensitive information to version control!**
+
+This application uses environment variables for sensitive configuration. Before running the app:
+
+1. Copy `env.example` to `.env.local`
+2. Fill in your actual API keys and secrets
+3. Ensure `.env.local` is in your `.gitignore` file
+
+### Required Environment Variables
+
+```bash
+# Email service (Resend)
+RESEND_API_KEY=your_resend_api_key_here
+```
+
 ## Getting Started
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwhopio%2Fnext-template&env=NEXT_PUBLIC_WHOP_CLIENT_ID,WHOP_CLIENT_SECRET,WHOP_API_KEY,NEXT_PUBLIC_RECOMMENDED_PLAN_ID,NEXT_PUBLIC_REQUIRED_PRODUCT,NEXTAUTH_SECRET&envDescription=Follow%20the%20instructions%20here%20to%20obtain%20the%20env%20vars%20above%3A&envLink=https%3A%2F%2Fgithub.com%2Fwhopio%2Fnext-template%2Fblob%2Fmain%2F.env.example&project-name=whop-next-template&repository-name=whop-next-template&demo-title=Whop%20Next.js%20Template&demo-description=Whop%20Next.js%20Template&demo-url=https%3A%2F%2Fnext-template-whop.vercel.app%2F&demo-image=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F4Xc0tWaSTiUEoRUI6Nyj4C%2F38157dced5977daa0a0ef2e093731023%2Fwhop-nextjs.png%3Fh%3D250)
